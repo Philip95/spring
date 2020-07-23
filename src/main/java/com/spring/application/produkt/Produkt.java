@@ -12,7 +12,9 @@ public class Produkt {
 	private int altersfreigabe‎;
 
 	public Produkt(String name, String genre, double preis, String sprache, Date erscheinungsdatum, int altersfreigabe‎) {
+		
 		super();
+		
 		this.name = name;
 		this.genre = genre;
 		this.preis = preis;

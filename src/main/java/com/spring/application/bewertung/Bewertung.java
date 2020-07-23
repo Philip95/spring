@@ -5,7 +5,9 @@ public class Bewertung {
 	private int summeBewertungen;
 	
 	public Bewertung(int anzahlBewertungen, int summe) {
+		
 		super();
+		
 		this.anzahlBewertungen = anzahlBewertungen;
 		this.summeBewertungen = summe;
 	}

@@ -11,14 +11,18 @@ public class Person {
 	
 	//User Konstruktor
 	public Person(String vorname, String nachname) {
+		
 		super();
+
 		this.vorname = vorname;
 		this.nachname = nachname;
 	}
 	
 	//Autor und Regie
 	public Person(String vorname, String nachname, Date gebdatum, String beschreibung) {
+		
 		super();
+		
 		this.vorname = vorname;
 		this.nachname = nachname;
 		this.gebdatum = gebdatum;
@@ -45,7 +49,4 @@ public class Person {
 	public String toString() {
 		return "Person [vorname=" + vorname + ", nachname=" + nachname + ", alter=" + gebdatum + "]";
 	}
-	
-
-	
 }

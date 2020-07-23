@@ -10,6 +10,7 @@ public class Autor extends Person {
 	
 
 	public Autor(String vorname, String nachname, Date gebdatum, int id, String beschreibung) {
+		
 		super(vorname, nachname, gebdatum, beschreibung);
 		
 		this.id = id;
