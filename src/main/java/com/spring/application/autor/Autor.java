@@ -4,25 +4,18 @@ import java.util.Date;
 
 import com.spring.application.person.Person;
 
-public class Autor extends Person {
-	
-	private int id;
-	
+public class Autor extends Person {	
 
 	public Autor(String vorname, String nachname, Date gebdatum, int id, String beschreibung) {
 		
-		super(vorname, nachname, gebdatum, beschreibung);
+		super(vorname, nachname, gebdatum, beschreibung, id);
 		
-		this.id = id;
 	}
 
-	public int getId() {
-		return id;
-	}
 
 	@Override
 	public String toString() {
-		return "Autor [id=" + id + ", beschreibung=" + "]";
+		return "Autor [id=" + ", beschreibung=" + "]";
 	}
 	
 	

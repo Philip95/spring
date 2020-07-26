@@ -4,8 +4,8 @@ import com.spring.application.person.Person;
 
 public class User extends Person {
 
-	public User(String vorname, String nachname) {
-		super(vorname, nachname);
+	public User(String vorname, String nachname, int p_id) {
+		super(vorname, nachname, p_id);
 	}
 
 	@Override

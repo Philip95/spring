@@ -6,8 +6,8 @@ import com.spring.application.person.Person;
 
 public class Reggiseur extends Person {
 
-	public Reggiseur(String vorname, String nachname, Date gebdatum, String beschreibung) {
-		super(vorname, nachname, gebdatum, beschreibung);
+	public Reggiseur(String vorname, String nachname, Date gebdatum, String beschreibung, int p_id) {
+		super(vorname, nachname, gebdatum, beschreibung, p_id);
 	}
 
 	@Override
